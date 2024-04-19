@@ -14,3 +14,6 @@ Si c’est un administrateur qui se connecte, il a accès directement aux notes 
 Si un étudiant se connecte, il a accès aux questions. Il a le choix entre trois réponses pour chaque question. À chaque fois qu’il valide une question, la suivante apparaît. À la fin, son score apparaît à l’écran. S’il a déjà effectué le quizz et qu’il se reconnecte, un message lui affiche qu’il a déjà effectué le quizz et lui rappelle sa note.
 
 Bon courage.
+
+PS : Envoyer le lien git sur : formateur_guillaume.donzeau@supdevinci-edu.fr
+
