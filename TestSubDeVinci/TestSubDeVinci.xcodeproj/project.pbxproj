@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8255E58A2BD279AC00D7170C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8255E5892BD279AC00D7170C /* DataController.swift */; };
+		8255E58D2BD279C500D7170C /* AppStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8255E58B2BD279C500D7170C /* AppStorage.xcdatamodeld */; };
 		F0409D092BD19A0F007FDC4B /* TestSubDeVinciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0409D082BD19A0F007FDC4B /* TestSubDeVinciTests.swift */; };
 		F0409D212BD23F97007FDC4B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0409D202BD23F97007FDC4B /* Users.swift */; };
 		F0D2B5562BCEF3F800BDD55F /* PopQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B5552BCEF3F800BDD55F /* PopQuizApp.swift */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8255E5892BD279AC00D7170C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		8255E58C2BD279C500D7170C /* AppStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppStorage.xcdatamodel; sourceTree = "<group>"; };
 		F0409D062BD19A0F007FDC4B /* TestSubDeVinciTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestSubDeVinciTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0409D082BD19A0F007FDC4B /* TestSubDeVinciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSubDeVinciTests.swift; sourceTree = "<group>"; };
 		F0409D202BD23F97007FDC4B /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 				F0409D202BD23F97007FDC4B /* Users.swift */,
 				F0D2B5592BCEF3FA00BDD55F /* Assets.xcassets */,
 				F0D2B55B2BCEF3FA00BDD55F /* Preview Content */,
+				8255E5892BD279AC00D7170C /* DataController.swift */,
+				8255E58B2BD279C500D7170C /* AppStorage.xcdatamodeld */,
 			);
 			path = TestSubDeVinci;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8255E58A2BD279AC00D7170C /* DataController.swift in Sources */,
+				8255E58D2BD279C500D7170C /* AppStorage.xcdatamodeld in Sources */,
 				F0409D212BD23F97007FDC4B /* Users.swift in Sources */,
 				F0D2B5642BCEF41900BDD55F /* Models.swift in Sources */,
 				F0D2B5582BCEF3F800BDD55F /* ContentView.swift in Sources */,
@@ -473,6 +481,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8255E58B2BD279C500D7170C /* AppStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8255E58C2BD279C500D7170C /* AppStorage.xcdatamodel */,
+			);
+			currentVersion = 8255E58C2BD279C500D7170C /* AppStorage.xcdatamodel */;
+			name = AppStorage.xcdatamodeld;
+			path = /Users/cedric/dev/perso/ios/TestSubDeVinci/TestSubDeVinci/TestSubDeVinci/AppStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F0D2B54A2BCEF3F800BDD55F /* Project object */;
 }
