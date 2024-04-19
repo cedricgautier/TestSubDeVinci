@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		F0409D092BD19A0F007FDC4B /* TestSubDeVinciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0409D082BD19A0F007FDC4B /* TestSubDeVinciTests.swift */; };
 		F0409D212BD23F97007FDC4B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0409D202BD23F97007FDC4B /* Users.swift */; };
-		F0D2B5562BCEF3F800BDD55F /* TestSubDeVinciApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B5552BCEF3F800BDD55F /* TestSubDeVinciApp.swift */; };
+		F0D2B5562BCEF3F800BDD55F /* PopQuizApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B5552BCEF3F800BDD55F /* PopQuizApp.swift */; };
 		F0D2B5582BCEF3F800BDD55F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0D2B5572BCEF3F800BDD55F /* ContentView.swift */; };
 		F0D2B55A2BCEF3FA00BDD55F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D2B5592BCEF3FA00BDD55F /* Assets.xcassets */; };
 		F0D2B55D2BCEF3FA00BDD55F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0D2B55C2BCEF3FA00BDD55F /* Preview Assets.xcassets */; };
@@ -31,7 +31,7 @@
 		F0409D082BD19A0F007FDC4B /* TestSubDeVinciTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSubDeVinciTests.swift; sourceTree = "<group>"; };
 		F0409D202BD23F97007FDC4B /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		F0D2B5522BCEF3F800BDD55F /* TestSubDeVinci.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSubDeVinci.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0D2B5552BCEF3F800BDD55F /* TestSubDeVinciApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSubDeVinciApp.swift; sourceTree = "<group>"; };
+		F0D2B5552BCEF3F800BDD55F /* PopQuizApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopQuizApp.swift; sourceTree = "<group>"; };
 		F0D2B5572BCEF3F800BDD55F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F0D2B5592BCEF3FA00BDD55F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F0D2B55C2BCEF3FA00BDD55F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		F0D2B5542BCEF3F800BDD55F /* TestSubDeVinci */ = {
 			isa = PBXGroup;
 			children = (
-				F0D2B5552BCEF3F800BDD55F /* TestSubDeVinciApp.swift */,
+				F0D2B5552BCEF3F800BDD55F /* PopQuizApp.swift */,
 				F0D2B5572BCEF3F800BDD55F /* ContentView.swift */,
 				F0D2B5632BCEF41900BDD55F /* Models.swift */,
 				F0409D202BD23F97007FDC4B /* Users.swift */,
@@ -214,7 +214,7 @@
 				F0409D212BD23F97007FDC4B /* Users.swift in Sources */,
 				F0D2B5642BCEF41900BDD55F /* Models.swift in Sources */,
 				F0D2B5582BCEF3F800BDD55F /* ContentView.swift in Sources */,
-				F0D2B5562BCEF3F800BDD55F /* TestSubDeVinciApp.swift in Sources */,
+				F0D2B5562BCEF3F800BDD55F /* PopQuizApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
